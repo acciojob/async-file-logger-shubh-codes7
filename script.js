@@ -7,5 +7,7 @@ const fileNames = [
   "file5.txt",
 ];
 
-// do not change the code above
-// add your code here
+for(let i=0; i<fileNames.length; i++){
+	console.log(`File ${i+1}: ${fileNames[i]}`)
+}
+
