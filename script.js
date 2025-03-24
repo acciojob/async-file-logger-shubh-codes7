@@ -8,6 +8,6 @@ const fileNames = [
 ];
 
 for(let i=0; i<fileNames.length; i++){
-	console.log(`File ${i+1}: ${fileNames[i]}`)
+	console.log(`File ${i+1}: This content is from file ${fileNames[i+1]}`)
 }
 
